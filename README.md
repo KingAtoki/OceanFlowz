@@ -1,2 +1,1 @@
-# OceanFlowz
-Website for OceanFlowz
+Website for Ocean Flowz
