@@ -1,26 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Carousel } from './components/Carousel/Carousel'
+import { TitlePage } from './components/Pages/TitlePage/TitlePage'
+import { IntroductionPage } from './components/Pages/IntroductionPage/IntroductionPage'
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const PAGES = [<TitlePage />, <IntroductionPage />]
 
-export default App;
+export const App = () => (
+  <div className='App'>
+    <Carousel items={PAGES} />
+  </div>
+)
