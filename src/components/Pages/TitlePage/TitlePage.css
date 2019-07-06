@@ -1,0 +1,11 @@
+p.title-page-company-name {
+    font-size: 2rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+div.title-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

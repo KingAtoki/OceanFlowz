@@ -1,0 +1,21 @@
+p {
+    font-family: unset;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+h1 {
+    border-bottom: solid thin grey;
+}
+
+p.introduction-page-ending {
+    text-align: right;
+}
+
+p.introduction-page-signature {
+    text-align: right;
+    font-family: Snell Roundhand, cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
