@@ -10,7 +10,6 @@ const settings = {
     slidesToScroll: 1,
     fade: true,
     centerMode: true,
-    // adaptiveHeight: true,
 };
 
 

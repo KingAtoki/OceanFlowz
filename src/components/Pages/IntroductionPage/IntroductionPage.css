@@ -5,6 +5,10 @@ p {
     text-align: left;
 }
 
+h1 {
+    border-bottom: solid thin grey;
+}
+
 p.introduction-page-ending {
     text-align: right;
 }
