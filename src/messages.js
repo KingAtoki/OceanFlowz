@@ -10,7 +10,7 @@ export const CRITERIA_SUBHEADER = 'There are two types of memberships available 
 
 export const TWO_YEAR_MEM_HEADER = '2 Year Membership'
 export const TWO_YEAR_MEM_PRICE = '$80'
-export const TWO_YEAR_MEM_DESCRIPTION = 'After launching project starts for clients summer/winder months 2020, the 2 year fee will be starting out at $175.'
+export const TWO_YEAR_MEM_DESCRIPTION = 'After launching project starts for clients summer/winter months 2020, the 2 year fee will be starting out at $175.'
 
 export const LIFETIME_MEM_HEADER = 'LIFETIME Membership'
 export const LIFETIME_MEM_PRICE = '$125'
