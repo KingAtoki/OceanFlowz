@@ -9,3 +9,10 @@ div.title-page {
     justify-content: center;
     align-items: center;
 }
+
+img.title-page-img {
+    height: 65%;
+    width: 65%;
+    max-height: 450px;
+    max-width: 450px;
+}

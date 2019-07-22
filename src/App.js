@@ -1,19 +1,67 @@
-import React from 'react';
-import { Carousel } from './components/Carousel/Carousel'
+import React, { Component } from 'react';
+import Slider from "react-slick";
+import Carousel from './components/Carousel/Carousel'
 import { TitlePage } from './components/Pages/TitlePage/TitlePage'
 import { IntroductionPage } from './components/Pages/IntroductionPage/IntroductionPage'
 import { CriteriaPage } from './components/Pages/CriteriaPage/CriteriaPage'
+import { TableOfContents } from './components/Pages/TableOfContents/TableOfContents'
+import { PositionsAvailable } from './components/Pages/PositionsAvailablePage/PositionsAvailable'
+import { PaymentPage } from './components/Pages/PaymentPage/PaymentPage'
+
+import { PAGES, IMAGES, POSITIONS } from './constants'
 
 import './App.css';
 
-const PAGES = [
-  <TitlePage />,
-  <IntroductionPage />,
-  <CriteriaPage />
-]
+const settings = {
+  infinite: true,
+  speed: 500,
+  autoplaySpeed: 2000,
+  autoplay: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: true,
+  centerMode: true,
+  swipeToSlide: true,
+  adaptiveHeight: true,
+};
 
-export const App = () => (
-  <div className='App'>
-    <Carousel items={PAGES} />
-  </div>
-)
+
+export default class App extends Component {
+  state = {
+    currentPage: null,
+  }
+  
+  changePage = index => () => this.setState({ currentPage: index })
+  
+  render() {
+    const comps = [
+      <TitlePage />,
+      <TableOfContents pages={PAGES} changePage={this.changePage} />,
+      <IntroductionPage />,
+      <CriteriaPage />,
+      <PositionsAvailable positions={POSITIONS} />,
+      <PaymentPage />
+    ]
+
+    console.log(this.state)
+    return (
+      <div className='App'>
+        <Slider
+            {...settings}
+        >
+            {IMAGES.map(image => {
+              return (
+                <img
+                  className='slider-image'
+                  key={image}
+                  src={image}
+                  alt={image}
+                />
+              )
+            })}
+        </Slider>
+        <Carousel items={comps} currentPage={this.state.currentPage} />
+      </div>
+    )
+  }
+}

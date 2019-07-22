@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+div.slick-slider:nth-child(2) div.slick-list {
+  transition: all .5s;
+  overflow-y: auto;
+  /* I hate using important but it was the only way 🤷‍ */
+  height: 500px !important;
+}
+
+ul.slick-dots {
+  bottom: -35px;
+}
+
+ul.slick-dots li {
+  width: 30px;
+}
+
+ul.slick-dots .slick-active {
+  background-color: lightgrey;
+  border-radius: 15px;
+}

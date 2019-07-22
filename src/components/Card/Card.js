@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-export const Card = ({ title, description }) => {
+export const Card = ({ title, description = '' }) => {
     return (
         <div className='card'>
             <h3 className='card_title'>{title}</h3>

@@ -24,3 +24,16 @@ export const MEM_FEE_NOTE = '*All Membership Fees will be a onetime only payment
 
 export const MEM_REQS_HEADER = 'Membership Requirements'
 export const MEM_REQS = 'All professionals will need to send an updated copy of license and a brief bio of strong points and a head shot. All the information to be sent via email to Ocean Flowz International LLC and fees through PayPal, cash app, or Venmo to the addresses provided. You will receive a conformation response and updates as to progress approaching launch date for events 2020 for members to attend. Prior to event each member will also receive a detailed package through email to further explain our Mission Objectives and responsibilities to our client base worldwide. All members must specify as well, positions desired. Also attach your full name and address to your payment and within email for your conformation response. This assures that you are placed in the correct geographic area on Ocean Flowz application and website once advertized to world wide exposure and operation.'
+
+/** Table of Contents */
+
+export const TOC_HEADER = 'Table of Contents'
+
+/** Positions Available */
+
+export const POS_AVA_HEADER = 'Positions Available'
+export const POS_AVA_NOTE = '*All Professionals must provide a copy of licenses*'
+
+/** Payment Page */
+
+export const DONATE_CTA = 'Donate With Us!'
