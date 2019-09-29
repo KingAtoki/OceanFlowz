@@ -2,7 +2,7 @@ div.criteria-page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 350px;
+  height: 375px;
   overflow: auto;
 }
 

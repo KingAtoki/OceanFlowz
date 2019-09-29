@@ -6,6 +6,7 @@ import { IntroductionPage } from "./components/Pages/IntroductionPage/Introducti
 import { CriteriaPage } from "./components/Pages/CriteriaPage/CriteriaPage";
 import { TableOfContents } from "./components/Pages/TableOfContents/TableOfContents";
 import { PositionsAvailable } from "./components/Pages/PositionsAvailablePage/PositionsAvailable";
+import { MembersDescription } from "./components/Pages/MembersDescription/MembersDescription";
 import { PaymentPage } from "./components/Pages/PaymentPage/PaymentPage";
 import { ComingFeaturesPage } from "./components/Pages/ComingFeaturesPage/ComingFeaturesPage";
 
@@ -35,7 +36,7 @@ export default class App extends Component {
   changePage = index => () => this.setState({ currentPage: index });
 
   render() {
-    const comps = [<TitlePage />, <TableOfContents pages={PAGES} changePage={this.changePage} />, <IntroductionPage />, <CriteriaPage />, <PositionsAvailable positions={POSITIONS} />, <PaymentPage />, <ComingFeaturesPage />];
+    const comps = [<TitlePage />, <TableOfContents pages={PAGES} changePage={this.changePage} />, <IntroductionPage />, <CriteriaPage />, <PositionsAvailable positions={POSITIONS} />, <MembersDescription/>, <PaymentPage />, <ComingFeaturesPage />];
 
     return (
       <div className="App">
