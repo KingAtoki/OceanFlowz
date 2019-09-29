@@ -1,18 +1,22 @@
 p.title-page-company-name {
-    font-size: 2rem;
-    font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 2rem;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  position: relative;
+  bottom: 250px;
 }
 
 div.title-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img.title-page-img {
-    height: 65%;
-    width: 65%;
-    max-height: 450px;
-    max-width: 450px;
+  position: relative;
+  bottom: 100px;
+  height: 65%;
+  width: 65%;
+  max-height: 500px;
+  max-width: 300px;
 }

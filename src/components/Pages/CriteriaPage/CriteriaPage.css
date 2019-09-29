@@ -1,12 +1,18 @@
 div.criteria-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  overflow: auto;
 }
 
 div.criteria-page_cards {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+div.criteria-page_cards .card {
+  margin: 10px;
 }
