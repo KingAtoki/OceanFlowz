@@ -20,6 +20,11 @@ export const PaymentPage = () => {
           <img src={stJude} alt="st-jude" style={{ margin: "0 auto", height: "100px", width: "100px" }} />
         </div>
       </div>
+      <p>
+        <strong>
+          Send all emails to <a href="mailto:ocnflwzintdon@gmail.com">ocnflwzintdon@gmail.com</a>!!!
+        </strong>
+      </p>
     </div>
   );
 };
