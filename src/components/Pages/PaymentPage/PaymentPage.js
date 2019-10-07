@@ -32,7 +32,6 @@ const getEvents = async () => {
 
 getEvents();
 export const PaymentPage = () => {
-  console.log(events);
   const [eventsShowing, setEventsShowing] = useState(false);
   return eventsShowing ? (
     <div className="table-of-contents" style={{ height: "350px", width: "80%", padding: "15px", overflow: "auto" }}>
