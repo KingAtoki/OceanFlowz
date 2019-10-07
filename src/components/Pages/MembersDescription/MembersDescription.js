@@ -2,7 +2,7 @@ import React from "react";
 
 export const MembersDescription = () => {
   return (
-    <div className="table-of-contents" style={{ height: "350px", width: "80%", padding: "15px", overflow: "auto" }}>
+    <div className="table-of-contents" style={{ width: "85%", padding: "15px" }}>
       <h1>Members Description</h1>
       <strong>Members will start launching campaign 2020.</strong>
       <p>*Sales representatives can start ASAP! Their job is to recruit the members in all areas of cosmetology all over on a commission basis. All payments will be done on a monthly pay scale from the 26th of the month to the 25th to be paid the first week of the month. Pay scales are as follows:</p>

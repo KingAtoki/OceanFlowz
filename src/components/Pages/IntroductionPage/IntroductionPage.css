@@ -1,8 +1,3 @@
-.introduction-page {
-  height: 350px;
-  overflow: auto;
-}
-
 p {
   font-family: unset;
   font-size: 1rem;
@@ -18,9 +13,6 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.introduction-page-header {
   padding-left: 15%;
 }
 
@@ -40,4 +32,13 @@ p.introduction-page-signature {
   font-family: Snell Roundhand, cursive;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 450px) {
+  .introduction-page-header span {
+    font-size: 1.2rem;
+  }
+  .introduction-page-text p {
+    font-size: 0.5rem;
+  }
 }

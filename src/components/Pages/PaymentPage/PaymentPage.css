@@ -1,0 +1,29 @@
+.events {
+  cursor: pointer;
+  float: right;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+@media only screen and (max-width: 450px) {
+  .events {
+    right: 70px;
+    bottom: -15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .events {
+    right: 55px;
+    bottom: -15px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .events {
+    right: 30px;
+    bottom: -15px;
+  }
+}

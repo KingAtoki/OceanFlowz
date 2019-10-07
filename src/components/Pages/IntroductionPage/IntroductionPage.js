@@ -5,7 +5,7 @@ import pauseSpeakingIcon from "../../../assets/pause-speaking-icon.png";
 import "./IntroductionPage.css";
 
 export const IntroductionPage = () => (
-  <div className="table-of-contents" style={{ height: "350px", width: "80%", padding: "15px", overflow: "auto" }}>
+  <div className="table-of-contents" style={{ width: "85%", padding: "15px", overflow: "auto" }}>
     <h1 className="introduction-page-header">
       <span>{INTRODUCTION_HEADER}</span>
       <img className="introduction-page-header_image" src={pauseSpeakingIcon} alt="pause-speaking" onClick={() => pauseSpeaking()} />

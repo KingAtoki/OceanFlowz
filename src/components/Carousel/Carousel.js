@@ -46,7 +46,7 @@ export default class Carousel extends React.Component {
             <div key={item}>{item}</div>
           ))}
         </Slider>
-        <div style={{ width: "100px", position: "relative", display: "flex", bottom: "50px", justifyContent: "space-between", margin: "auto" }}>
+        <div className="slider-next-prev">
           <button onClick={() => this.slider.slickPrev()} style={{ background: "none", border: "none", cursor: "pointer" }}>
             <span>back</span>
           </button>

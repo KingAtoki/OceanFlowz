@@ -3,7 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 500px;
+  min-width: 300px;
 }
 
 code {
@@ -19,6 +19,44 @@ div.slick-slider:nth-child(2) div.slick-list {
 
 ul.slick-dots {
   bottom: 75px;
+}
+
+.slider-next-prev {
+  width: 100px;
+  position: relative;
+  display: flex;
+  bottom: 50px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+@media only screen and (max-width: 2000px) {
+  ul.slick-dots {
+    bottom: 40px;
+  }
+  .slider-next-prev {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  ul.slick-dots {
+    bottom: 50px;
+  }
+
+  .slider-next-prev {
+    bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  ul.slick-dots {
+    bottom: 130px;
+  }
+
+  .slider-next-prev {
+    bottom: 120px;
+  }
 }
 
 .slick-slide {

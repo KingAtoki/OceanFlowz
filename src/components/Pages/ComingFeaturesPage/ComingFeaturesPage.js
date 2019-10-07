@@ -2,7 +2,7 @@ import React from "react";
 
 export const ComingFeaturesPage = () => {
   return (
-    <div className="table-of-contents" style={{ height: "350px", width: "80%", padding: "15px", overflow: "auto" }}>
+    <div className="table-of-contents" style={{ width: "80%", padding: "15px" }}>
       <h1>Coming Features</h1>
       <div>
         <p>Oceanflowz International Beauty World App is under construction for Apple &amp; Android to be fully functional for client services &amp; members.</p>
