@@ -87,6 +87,16 @@ ul.slick-dots {
   }
 }
 
+@media only screen and (max-width: 325px) {
+  ul.slick-dots {
+    display: none !important;
+  }
+
+  .slider-next-prev {
+    bottom: 43%;
+  }
+}
+
 .slick-slide {
   z-index: 0;
 }
