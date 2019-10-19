@@ -18,7 +18,7 @@ div.slick-slider:nth-child(2) div.slick-list {
 }
 
 ul.slick-dots {
-  bottom: 75px;
+  bottom: 75%;
 }
 
 .slider-next-prev {
@@ -32,30 +32,58 @@ ul.slick-dots {
 
 @media only screen and (max-width: 2000px) {
   ul.slick-dots {
-    bottom: 40px;
+    bottom: 10%;
   }
   .slider-next-prev {
-    bottom: 30px;
+    bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  ul.slick-dots {
+    bottom: 5%;
+  }
+  .slider-next-prev {
+    bottom: 1%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  ul.slick-dots {
+    bottom: 5%;
+  }
+  .slider-next-prev {
+    bottom: 1%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  ul.slick-dots {
+    bottom: 13%;
+  }
+
+  .slider-next-prev {
+    bottom: 7%;
   }
 }
 
 @media only screen and (max-width: 375px) {
   ul.slick-dots {
-    bottom: 50px;
+    bottom: 15%;
   }
 
   .slider-next-prev {
-    bottom: 40px;
+    bottom: 8%;
   }
 }
 
 @media only screen and (max-width: 330px) {
   ul.slick-dots {
-    bottom: 130px;
+    bottom: 37%;
   }
 
   .slider-next-prev {
-    bottom: 120px;
+    bottom: 30%;
   }
 }
 

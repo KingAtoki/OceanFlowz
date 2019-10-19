@@ -25,7 +25,7 @@ const settings = {
   fade: true,
   centerMode: true,
   swipeToSlide: true,
-  adaptiveHeight: true,
+  adaptiveHeight: false,
 };
 
 export default class App extends Component {
