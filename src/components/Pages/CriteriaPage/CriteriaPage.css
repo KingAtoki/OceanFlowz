@@ -25,9 +25,9 @@ div.criteria-page_cards .card {
   height: 220px;
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 370px) {
   div.criteria-page {
-    height: 250px;
+    height: 295px;
     width: 100%;
   }
 }

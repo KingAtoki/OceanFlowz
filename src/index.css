@@ -10,70 +10,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+div.slick-slider.slick-initialized[dir="ltr"]:nth-child(2){
+  height: 500px;
+}
+
 div.slick-slider:nth-child(2) div.slick-list {
   transition: all 0.5s;
   overflow-y: hidden;
-  /* I hate using important but it was the only way 🤷‍ */
-  height: 500px !important;
+  height: 500px;
 }
 
 ul.slick-dots {
-  bottom: 75%;
+  position: absolute;
+  bottom: -10%;
 }
 
 .slider-next-prev {
   width: 100px;
-  position: relative;
+  position: absolute;
   display: flex;
   bottom: 50px;
+  right: 39%;
   justify-content: space-between;
   margin: auto;
+  display: none; /* see about turning this off */
 }
 
 @media only screen and (max-width: 2000px) {
   ul.slick-dots {
-    bottom: 10%;
+    bottom: -15%;
   }
   .slider-next-prev {
     bottom: 5%;
   }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 420px) {
   ul.slick-dots {
+    bottom: 0%;
+  }
+  .slider-next-prev {
     bottom: 5%;
   }
-  .slider-next-prev {
-    bottom: 1%;
-  }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 380px) {
   ul.slick-dots {
+    bottom: 25%;
+  }
+  .slider-next-prev {
     bottom: 5%;
-  }
-  .slider-next-prev {
-    bottom: 1%;
-  }
-}
-
-@media only screen and (max-width: 415px) {
-  ul.slick-dots {
-    bottom: 13%;
-  }
-
-  .slider-next-prev {
-    bottom: 7%;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  ul.slick-dots {
-    bottom: 15%;
-  }
-
-  .slider-next-prev {
-    bottom: 8%;
   }
 }
 
@@ -89,11 +75,13 @@ ul.slick-dots {
 
 @media only screen and (max-width: 325px) {
   ul.slick-dots {
-    display: none !important;
+    bottom: 20%;
   }
+}
 
-  .slider-next-prev {
-    bottom: 43%;
+@media only screen and (max-width: 320px) {
+  ul.slick-dots {
+    bottom: 37%;
   }
 }
 
