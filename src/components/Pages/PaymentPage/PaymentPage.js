@@ -70,12 +70,15 @@ export const PaymentPage = () => {
 
       <div>
         <strong>Donate With Us on CashApp</strong>
-        <img src={cashAppImg} alt="cash-app" style={{ margin: "0 auto", height: "80%", width: "80%" }} />
+        <img src={cashAppImg} alt="cash-app" style={{ margin: "0 auto", height: "50%", width: "50%" }} />
+        <div style={{ margin: "20px 0" }}>
+          <strong>Proud Sponsors of</strong>
+        </div>
         <div style={{ display: "flex", marginTop: "10px", flexWrap: "wrap" }}>
-          <img src={breastCancer} alt="breast-cancer" style={{ margin: "0 auto", height: "50%", width: "50%" }} />
-          <img src={cancerTreatment} alt="cancer-treatment" style={{ margin: "0 auto", height: "50%", width: "50%" }} />
-          <img src={humaneSociety} alt="humane-society" style={{ margin: "0 auto", height: "50%", width: "50%" }} />
-          <img src={stJude} alt="st-jude" style={{ margin: "0 auto", height: "50%", width: "50%" }} />
+          <img src={breastCancer} alt="breast-cancer" style={{ margin: "0 auto", height: "25%", width: "25%" }} />
+          <img src={cancerTreatment} alt="cancer-treatment" style={{ margin: "0 auto", height: "25%", width: "25%" }} />
+          <img src={humaneSociety} alt="humane-society" style={{ margin: "0 auto", height: "25%", width: "25%" }} />
+          <img src={stJude} alt="st-jude" style={{ margin: "0 auto", height: "25%", width: "25%" }} />
         </div>
       </div>
       <p>

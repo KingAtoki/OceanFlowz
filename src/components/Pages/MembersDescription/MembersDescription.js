@@ -1,4 +1,5 @@
 import React from "react";
+import cashAppImg from "../../../assets/cash-app-qr-code.jpeg";
 
 export const MembersDescription = () => {
   return (
@@ -17,6 +18,10 @@ export const MembersDescription = () => {
         <li>For lifetime membership, Sales Rep will receive $62.50.</li>
       </ul>
       <p>Commission cap will be $70 for 2 memberships. $90 for lifetime membership &amp; OFI will only require 19% of all services performed. Base fee will be $45 &amp; services performed.</p>
+      <div>
+        <strong>Send Membership Payments To Our CashApp</strong>
+        <img src={cashAppImg} alt="cash-app" style={{ margin: "0 auto", height: "50%", width: "50%" }} />
+      </div>
     </div>
   );
 };
