@@ -2,7 +2,7 @@ p.title-page-company-name {
   font-size: 2rem;
   font-family: Brush Script MT, Brush Script Std, cursive;
   position: relative;
-  bottom: 250px;
+  bottom: -30px;
 }
 
 div.title-page {
@@ -14,7 +14,7 @@ div.title-page {
 
 img.title-page-img {
   position: relative;
-  bottom: 100px;
+  bottom: -120px;
   height: 65%;
   width: 65%;
   max-height: 500px;
@@ -23,11 +23,11 @@ img.title-page-img {
 
 @media only screen and (max-width: 450px) {
   img.title-page-img {
-    bottom: 50px;
+    bottom: -50px;
   }
   p.title-page-company-name {
     font-size: 1.5rem;
-    bottom: 150px;
+    bottom: -20px;
   }
 }
 
@@ -40,6 +40,6 @@ img.title-page-img {
 @media only screen and (max-width: 330px) {
   p.title-page-company-name {
     font-size: 1.2rem;
-    bottom: 120px;
+    bottom: -20px;
   }
 }
