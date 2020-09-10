@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Carousel from "./components/Carousel/Carousel";
+import Banner from "./components/Banner/Banner";
 import { TitlePage } from "./components/Pages/TitlePage/TitlePage";
 import { IntroductionPage } from "./components/Pages/IntroductionPage/IntroductionPage";
 import { CriteriaPage } from "./components/Pages/CriteriaPage/CriteriaPage";
@@ -45,6 +46,7 @@ export default class App extends Component {
             return <img className="slider-image" key={image} src={image} alt={image} />;
           })}
         </Slider>
+        <Banner />
         <Carousel items={comps} currentPage={this.state.currentPage} />
       </div>
     );

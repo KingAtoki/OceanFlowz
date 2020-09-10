@@ -19,7 +19,7 @@ export const CriteriaPage = () => {
       <em>{CriteriaMessages.MEM_REQS}</em>
       <p>
         <strong>
-          Send all emails to <a href="mailto:ocnflwzintmem@gmail.com">ocnflwzintmem@gmail.com</a>!
+          Send all emails to <a href="mailto:management@ocnflwzint.com">management@ocnflwzint.com</a>!
         </strong>
       </p>
       <p>

@@ -47,7 +47,7 @@ ul.slick-dots {
 
 @media only screen and (max-width: 420px) {
   ul.slick-dots {
-    bottom: 10%;
+    bottom: -15%;
   }
   .slider-next-prev {
     bottom: 5%;
@@ -56,7 +56,7 @@ ul.slick-dots {
 
 @media only screen and (max-width: 380px) {
   ul.slick-dots {
-    bottom: 10%;
+    bottom: -15%;
   }
   .slider-next-prev {
     bottom: 5%;
@@ -81,7 +81,7 @@ ul.slick-dots {
 
 @media only screen and (max-width: 320px) {
   ul.slick-dots {
-    bottom: 37%;
+    bottom: -15%;
   }
 }
 

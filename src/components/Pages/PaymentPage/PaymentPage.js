@@ -55,7 +55,7 @@ export const PaymentPage = () => {
 
       <p>
         <strong>
-          For information on events please email <a href="mailto:ocnflwzintdon@gmail.com">ocnflwzintdon@gmail.com</a>!
+          For information on events please email <a href="mailto:management@ocnflwzint.com">management@ocnflwzint.com</a>!
         </strong>
       </p>
     </div>
@@ -83,7 +83,7 @@ export const PaymentPage = () => {
       </div>
       <p>
         <strong>
-          Send all emails to <a href="mailto:ocnflwzintdon@gmail.com">ocnflwzintdon@gmail.com</a>!
+          Send all emails to <a href="mailto:management@ocnflwzint.com">management@ocnflwzint.com</a>!
         </strong>
       </p>
     </div>

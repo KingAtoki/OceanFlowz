@@ -22,9 +22,13 @@ export const ComingFeaturesPage = () => {
         <p>Thank you again for all who considered this opportunity and remember "teamwork will make all of our biggest dreams work!"</p>
         <p>Contact us for any questions or concerns</p>
         <p>267-752-3322</p>
-        <div style={{ textAlign: "initial" }}>
-          <a href="mailto:ocnflwzintcon@gmail.com">ocnflwzintcon@gmail.com</a>
+        <div style={{ textAlign: "initial", marginBottom: '10px' }}>
+          <a href="mailto:management@ocnflwzint.com">management@ocnflwzint.com</a>
         </div>
+        <address>
+          1500 Market St 12th Floor
+          East Tower Philadelphia, PA 19102
+        </address>
       </div>
     </div>
   );
