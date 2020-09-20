@@ -21,7 +21,7 @@ export const ComingFeaturesPage = () => {
         <p>The aim will be state &amp; worldwide on a constant basis to ensure our success.</p>
         <p>Thank you again for all who considered this opportunity and remember "teamwork will make all of our biggest dreams work!"</p>
         <p>Contact us for any questions or concerns</p>
-        <p>267-752-3322</p>
+        <p>267-338-5500</p>
         <div style={{ textAlign: "initial", marginBottom: '10px' }}>
           <a href="mailto:management@ocnflwzint.com">management@ocnflwzint.com</a>
         </div>
