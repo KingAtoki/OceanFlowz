@@ -13,7 +13,7 @@ const settings = {
   swipeToSlide: true,
   adaptiveHeight: true,
   arrows: false,
-  customPaging: i => (
+  customPaging: (i) => (
     <div
       style={{
         width: "30px",
@@ -36,21 +36,22 @@ export default class Carousel extends React.Component {
     const { items } = this.props;
     return (
       <>
-        <Slider
-          ref={node => (this.slider = node)}
-          // Introduce a key instead of checking index of this getting inefficient
-          afterChange={index => (index === 2 ? speakIntro() : pauseSpeaking())}
-          {...settings}
-        >
-          {items.map(item => (
+        <Slider ref={(node) => (this.slider = node)} {...settings}>
+          {items.map((item) => (
             <div key={item}>{item}</div>
           ))}
         </Slider>
         <div className="slider-next-prev">
-          <button onClick={() => this.slider.slickPrev()} style={{ background: "none", border: "none", cursor: "pointer" }}>
+          <button
+            onClick={() => this.slider.slickPrev()}
+            style={{ background: "none", border: "none", cursor: "pointer" }}
+          >
             <span>back</span>
           </button>
-          <button onClick={() => this.slider.slickNext()} style={{ background: "none", border: "none", cursor: "pointer" }}>
+          <button
+            onClick={() => this.slider.slickNext()}
+            style={{ background: "none", border: "none", cursor: "pointer" }}
+          >
             <span>next</span>
           </button>
         </div>

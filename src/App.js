@@ -34,16 +34,32 @@ export default class App extends Component {
     currentPage: null,
   };
 
-  changePage = index => () => this.setState({ currentPage: index });
+  changePage = (index) => () => this.setState({ currentPage: index });
 
   render() {
-    const comps = [<TitlePage />, <TableOfContents pages={PAGES} changePage={this.changePage} />, <IntroductionPage />, <CriteriaPage />, <PositionsAvailable positions={POSITIONS} />, <MembersDescription/>, <PaymentPage />, <ComingFeaturesPage />];
+    const comps = [
+      <TitlePage />,
+      <TableOfContents pages={PAGES} changePage={this.changePage} />,
+      <IntroductionPage />,
+      <CriteriaPage />,
+      <PositionsAvailable positions={POSITIONS} />,
+      <MembersDescription />,
+      <PaymentPage />,
+      <ComingFeaturesPage />,
+    ];
 
     return (
       <div className="App">
         <Slider {...settings}>
-          {IMAGES.map(image => {
-            return <img className="slider-image" key={image} src={image} alt={image} />;
+          {IMAGES.map((image) => {
+            return (
+              <img
+                className="slider-image"
+                key={image}
+                src={image}
+                alt={image}
+              />
+            );
           })}
         </Slider>
         <Banner />
